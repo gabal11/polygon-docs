@@ -41,3 +41,8 @@ rm -rf go1.20.4.linux-amd64.tar.gz
 ```
 
 Confirm the Golang installation with `$ go version`.
+git clone https://github.com/0xPolygon/polygon-docs.git
+cd polygon-docs/docs/zkEVM/get-started/setup-nodes/deploy-zkevm/
+git commit -m "Add install-dependencies file"
+git push origin main
+git remote set-url origin https://github.com/YourUsername/YourRepoName.git
